@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .parent{
+        background-color: white;
+        display: grid;
+        grid-template-rows: 300px 300px;
+        grid-template-columns: 300px 300px 300px 300px;
+        row-gap: 10px;
+        column-gap: 10px;
+        height: 700px;
+        justify-content: center;
+        align-content: center;
+        margin-top: 20px;
+    }
+    .parent div{
+     color: white;
+     background-color: red;
+     justify-content: center;
+        align-content: center;
+    }
+    .parent #one {
+  position: relative;
+    }
+    .parent #one h2{
+        top:2px;
+        left:2px;
+        position: absolute;
+        background-color: black;
+        color: white;
+        padding: 4px;
+    }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div id="one"><img src="https://www.w3schools.com/w3images/house5.jpg" alt="" height="304px" width="300px"><h2>Summer House</h2></div>
+    <div id="one"><img src="https://www.w3schools.com/w3images/house2.jpg" alt="" height="304px" width="300px"><h2>Brick House</h2></div>
+    <div id="one"><img src="https://www.w3schools.com/w3images/house3.jpg" alt="" height="304px" width="300px"><h2>Renovated</h2></div>
+    <div id="one"><img src="https://www.w3schools.com/w3images/house4.jpg" alt="" height="304px" width="300px"><h2>Barn House</h2></div>
+    <div id="one"><img src="https://www.w3schools.com/w3images/house2.jpg" alt="" height="304px" width="300px"><h2>Summer House</h2></div>
+    <div id="one"><img src="https://www.w3schools.com/w3images/house4.jpg" alt="" height="304px" width="300px"><h2>Brick House</h2></div>
+    <div id="one"><img src="https://www.w3schools.com/w3images/house5.jpg" alt="" height="304px" width="300px"><h2>Renovated</h2></div>
+    <div id="one"><img src="https://www.w3schools.com/w3images/house3.jpg" alt="" height="304px" width="300px"><h2>Barn Hous</h2></div>
+    </div>
+</body>
+</html>

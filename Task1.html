@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+    .parent{
+        display: grid;
+        background-color: gray;
+        grid-template-columns: 200px 150px 150px;
+        grid-template-rows: 70px 60px 60px;
+        row-gap: 6px;
+        column-gap: 6px;
+        justify-content: center;
+       height: 220px;
+    }
+    .parent div{
+        background-color: aqua;
+        justify-content: center;
+        align-content: center;
+        margin-top: 10px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div style="grid-column: 1/4;"><h3>Header</h3></div>
+    <div style="grid-row: 2/4;"><h3>Menu</h3></div>
+    <div><h3>Main</h3></div>
+    <div><h3>Right</h3></div>
+    <div style="grid-column: 2/4;"><h3>Footer</h3></div>
+    </div>
+    </div>
+</body>
+</html>
